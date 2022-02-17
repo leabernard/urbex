@@ -1,0 +1,65 @@
+.menu{
+    float:left;
+    width: 20vh;
+    background-color: black;
+    text-align: left;
+    padding-left:2% ;
+}
+.text{
+    color:white;
+}
+.text:hover{
+    color:rgb(28, 175, 180);
+}
+.space{
+    justify-content: space-between
+}
+.arti{
+    float:right;
+    width: 80%;
+}
+.espace{
+    height: 40vh;
+}
+.esp{
+    height: 1.5vh;
+}
+.gris{
+    color: rgb(53, 53, 53);
+}
+.bloc{
+    width: 100%;
+    background-color: tomato;
+    border: 3px solid;
+    border-color: black;
+    border-width:2px;
+}
+.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px 2em;
+}
+.box :first-child {
+      align-self: center;
+}
+.comm{
+    display: flex;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    padding: 30px;
+}
+.center{
+    margin: auto;
+    width: 70%;
+    height: 5%;
+    border-radius: 3px;
+}
+.img{
+    width: 50%;
+}
+.page{
+    display: flex;
+}

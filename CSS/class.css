@@ -1,0 +1,275 @@
+body{
+    /*background-image: url("../IMG/Backgrounds/1.jpg");*/
+    background-color: #3f3d3d;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding: 1%;
+}
+.menu{
+    float:left;
+    width: 15vh;
+    background-color: black;
+
+    
+    text-align: left;
+    padding-left:2% ;
+    padding-right:2% ;
+}
+.text{
+    color:rgb(226, 226, 226);
+}
+.text:hover{
+    color:#6ff1fa;
+}
+.text1{
+    color:white;
+}
+.text1:hover{
+    color:rgb(8, 226, 117);
+}
+.text2{
+    color:white;
+}
+.text2:hover{
+    color:rgb(86, 15, 134);
+}
+.text3{
+    color:white;
+}
+.text3:hover{
+    color: rgb(192, 117, 192);
+}
+.space{
+    justify-content: space-between
+}
+.arti1{
+    float:right;
+    width: 70%;
+    height: 55vh;
+    
+}
+.arti2{
+    float:right;
+    width: 65%;
+}
+.arti3{
+    float:right;
+    width: 80%;
+    color:rgb(2, 2, 2);
+}
+.espace{
+    height: 20vh;
+}
+.esp{
+    height: 0.5vh;
+}
+.gris{
+    color: rgb(20, 20, 20);
+}
+.noir{
+    color: black;
+}
+.bloc{
+    width: 100%;
+    background-color: tomato;
+    border: 3px solid;
+    border-color: black;
+    border-width:2px;
+}
+.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px 2em;
+    border: 1px solid #000000;
+    background-color: #7e7e7e;
+    padding: 1%;
+}
+.box :first-child {
+      align-self: center;
+}
+.center{
+    margin: auto;
+    width: 70%;
+    border-radius: 3px;
+}
+.img{
+    width: 50%;
+}
+.page{
+    display: flex;
+}
+#bg {
+    display:block;
+    width: 70%;
+    left:0;
+    top:0;
+    padding:0;
+    margin:0;
+}
+.Affiche{
+    width: 65%;
+    height: 15vh;
+    border-color: black;
+}
+.comm{
+    display: flex;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 auto;
+    width: 85%;
+    border-radius: 1px;
+    background-color: #818181c5;
+    padding: 30px;
+}
+.nom{
+    color:rgb(255, 255, 255);
+}
+.nom:hover{
+    color: rgb(146, 218, 228);
+}
+.zone{
+    display: flex;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 auto;
+    width: 80%;
+    height: 15vh;
+    border-radius: 1px;
+    background-color: #818181c5;
+}
+.img1{
+    width: 20%;
+}
+.form{
+    width: 45%;
+    margin: auto;
+    margin-top:5%;
+}
+.form1{
+    width: 100%;
+    padding: 3%;
+    border: 1px solid #000000;
+    background: #fff;
+    display: inline-block;
+}
+.input[type=text], .input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.input[type=submit] {
+    background-color: #7e7e7e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    border-color: #000000;
+    border: 2px solid;
+    width: 100%;
+}
+.input[type=submit]:hover {
+    background-color: #6ff1fa;
+    color: #000000;
+}
+a.bouton {
+    padding: 10px 30px; 
+    background: #000000; 
+    color: white; 
+}
+a.bouton:hover {
+    background: #6ff1fa;
+    color: #000000; 
+    border-color: #000000;
+    border: 2px solid;
+}
+.gif{
+    width: 100%;
+    margin: auto;
+}
+.biojeu{
+    width:80%;
+    padding: 3%;
+    border: 1px solid #000000;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    display: inline-block;
+}
+.imgjeu{
+    width: 80%;
+}
+.imguser{
+    width: 5vh;
+    height: 5vh;
+    border-radius: 1000000px;
+}
+.flex{
+    display: flex;
+    margin: 0 auto;
+    word-wrap: anywhere;
+}
+.deco{
+    color:white;
+    background-color: #000000;
+    border: none ;
+    width: 10vh;
+}
+.deco:hover{
+    color:#6ff1fa;
+}
+.admin{
+    color: rgb(131, 33, 33);
+}
+.admin:hover{
+    color: rgb(175, 25, 25);
+}
+.imgusers{
+    width: 20vh;
+    height: 20vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1000000px;
+}
+.barregens{
+    border: 3px solid rgb(87, 87, 87);
+    border-radius: 3px;
+    padding: 1vh;
+}
+.id{
+    color: red;
+}
+.Nom{
+    color: #00ec14;
+}
+.MDP{
+    color: rgb(255, 115, 0);
+}
+.Admin{
+    color: purple;
+}
+.commbloc{
+    word-wrap: anywhere;
+    border: 3px solid rgb(87, 87, 87);
+    border-radius: 3px;
+    padding: 1vh;
+}
+.zone1{
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 auto;
+    width: 80%;
+    height: 15vh;
+    border-radius: 1px;
+    background-color: #818181c5;
+}
+.Affiche2{
+    width: 65%;
+    height: 30vh;
+    border-color: black;
+}

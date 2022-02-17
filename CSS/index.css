@@ -1,0 +1,8 @@
+body{
+   /* background-image: url("../IMG/Backgrounds/1.jpg");*/
+    background-color: #4d4a4a;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding: 1%;
+}
