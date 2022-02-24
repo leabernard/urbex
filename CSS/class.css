@@ -1,6 +1,5 @@
 body{
-    /*background-image: url("../IMG/Backgrounds/1.jpg");*/
-    background-color: #3f3d3d;
+    background-color: rgb(88, 87, 87);
     background-attachment: fixed;
     background-size: cover;
     font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
@@ -17,7 +16,7 @@ body{
     padding-right:2% ;
 }
 .text{
-    color:rgb(226, 226, 226);
+    color:white;
 }
 .text:hover{
     color:#6ff1fa;
@@ -47,7 +46,6 @@ body{
     float:right;
     width: 70%;
     height: 55vh;
-    
 }
 .arti2{
     float:right;
@@ -56,8 +54,8 @@ body{
 .arti3{
     float:right;
     width: 80%;
-    color:rgb(2, 2, 2);
 }
+
 .espace{
     height: 20vh;
 }
@@ -65,7 +63,7 @@ body{
     height: 0.5vh;
 }
 .gris{
-    color: rgb(20, 20, 20);
+    color: rgb(53, 53, 53);
 }
 .noir{
     color: black;
