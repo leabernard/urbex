@@ -9,7 +9,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="CSS/class.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="" /><!--icone de l'onglet-->
+   <!-- <link rel="icon" type="image/png" href="" /><!--icone de l'onglet-->
+   <link rel="icon" type="image/x-icon" href="IMG/icone/favicon.ico" />
     <title>Accueil</title>
 </head>
 <body>
@@ -24,9 +25,9 @@
             <img src='IMG/bg/3.jpg' id="bg" style="display: none;" > <!-- image 3-->
             <img src='IMG/bg/4.jpg' id="bg" style="display: none;" > <!-- image 4-->
             <img src='IMG/bg/5.jpg' id="bg" style="display: none;" > <!-- image 5-->
-            <img src='IMG/bg/6.png' id="bg" style="display: none;" > <!-- image 6-->
-            <img src='IMG/bg/7.jpg' id="bg" style="display: none;" > <!-- image 6-->
-            
+            <img src='IMG/bg/6.jpg' id="bg" style="display: none;" > <!-- image 6-->
+            <img src='IMG/bg/7.PNG' id="bg" style="display: none;" > <!-- image 6-->
+
             <script type="text/javascript">
             // image deffilante 
                 I = 0 ;

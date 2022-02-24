@@ -1,5 +1,5 @@
 <?php
-
+/*
 include "fonction.php";
 
 if (isset($_POST['pdpModif'])) {
@@ -34,5 +34,5 @@ if (isset($_POST['pdpModif'])) {
         }
     header("Location: compte.php");
     }
-    
+    */
 ?>

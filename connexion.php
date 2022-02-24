@@ -41,7 +41,7 @@
                     <input class="input" type="password" placeholder="Entrez votre mot de passe" name="MDP" required>
 
                     <h2>
-                        <input class="input" type="submit" id='submit' value="Connection">
+                        <input class="input" type="submit" id='submit' value="Connexion">
                     </h2>
 
                     <u>
@@ -70,9 +70,6 @@
                             }
                         }
                     ?>
-                    <div class="gif">
-                        <img class="gif" src="IMG/Backgrounds/gif02.gif">
-                    </div>
                 </form>
             </div>
         </div>

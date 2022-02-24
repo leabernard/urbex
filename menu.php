@@ -20,6 +20,14 @@
                             echo '<h2 class="text">'.$utilisateurs['pseudo'].'</h2>';
                         ?>
                     </a>
+                    <!--Bouton vers la page ajoutjeu.php-->
+                    <h5>
+                        <a class="text" href="ajoutjeu.php">Ajouté un spot</a>
+                    </h5>
+                      <!--Bouton vers la page ajoutjeu.php-->
+                      <h5>
+                        <a class="text" href="map.php">map </a>
+                    </h5>
                 <?php
             }
             ?>
@@ -37,8 +45,7 @@
                     //si l'utilisateur est Admin
                     ?>
                         <h5>
-                            <!--Bouton vers la page ajoutjeu.php-->
-                            <a class="admin" href="ajoutjeu.php">ajout d'un spot</a>
+                            <a class="admin" href="deljeu.php">Modifier spot</a>
                             <div class="esp"></div>
                             <div class="esp"></div>
                             <!--Bouton vers la page users.php-->
@@ -66,8 +73,7 @@
             } 
 
             if(check()){
-                //Affiche U ω U
-                echo '<h5 class="text3"> U ω U </h5>';
+                
             }else{
                 //finction de déconnexion
                 deco();

@@ -33,9 +33,9 @@
         
         <?php
             //sélection des jeu via leur type
-            $CommResult = $MaBase->query("SELECT * FROM `Game` WHERE `type` = '".$_GET['TypeName']."'");
+            $sql = $MaBase->query("SELECT * FROM `Game` WHERE `type` = '".$_GET['TypeName']."'");
                 //boucle qui affiche les jeu
-                While($don = $CommResult->fetch()){
+                While($don = $sql->fetch()){
                     ?>
                         <div class="center">
                             <!--affiche le nom du jeu-->
